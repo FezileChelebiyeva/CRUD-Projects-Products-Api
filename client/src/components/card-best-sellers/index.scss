@@ -1,0 +1,51 @@
+#bestSellers {
+  padding: 80px 0;
+  .swiper-button-next {
+    --swiper-navigation-size: 20px;
+    --swiper-theme-color: #000;
+  }
+  .swiper-button-prev {
+    --swiper-navigation-size: 20px;
+    --swiper-theme-color: #000;
+  }
+  .bestSellers {
+    p {
+      color: rgb(121, 121, 121);
+      font-size: 15px;
+    }
+    h1 {
+      margin: 10px 0;
+    }
+    .line {
+      width: 100px;
+      height: 2px;
+      background-color: #384aeb;
+    }
+    .cards {
+      margin-top: 50px;
+      .card {
+        .img {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+        .info {
+          text-align: center;
+          p {
+            margin-top: 20px;
+            color: rgb(121, 121, 121);
+            font-size: 15px;
+          }
+          h3 {
+            font-weight: 500;
+            padding: 15px 0;
+          }
+          .price {
+            font-weight: 700;
+            color: rgb(121, 121, 121);
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,37 @@
+#wishlist {
+    padding: 80px 0;
+  .wishlist {
+    .cards {
+      margin-top: 30px;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      gap: 50px 30px;
+      flex-wrap: wrap;
+      .card {
+        width: 22%;
+        .img {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+        .info {
+          text-align: center;
+          p {
+            margin-top: 20px;
+            color: rgb(121, 121, 121);
+            font-size: 15px;
+          }
+          h3 {
+            font-weight: 500;
+            padding: 15px 0;
+          }
+          .price {
+            font-weight: 700;
+            color: rgb(121, 121, 121);
+          }
+        }
+      }
+    }
+  }
+}

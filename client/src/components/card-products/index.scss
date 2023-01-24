@@ -1,0 +1,87 @@
+#products {
+  padding: 80px 0;
+  .products {
+    p {
+      color: rgb(121, 121, 121);
+      font-size: 15px;
+    }
+    h1 {
+      margin: 10px 0;
+    }
+    .line {
+      width: 100px;
+      height: 2px;
+      background-color: #384aeb;
+    }
+    .inp-btn{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .search {
+      margin-top: 20px;
+      input {
+        width: 600px;
+      }
+    }
+    button {
+      margin-top: 20px;
+      background-color: #384aeb;
+      color: #fff;
+      outline: 0;
+      border: 1px solid #384aeb;
+      width: 120px;
+      padding: 12px 10px;
+      border-radius: 10px;
+      font-size: 13px;
+      font-weight: 500;
+      cursor: pointer;
+      transition: all 0.4s;
+      &:hover {
+        background-color: transparent;
+        color: #000;
+        border: 1px solid #384aeb;
+      }
+    }
+    .cards {
+      margin-top: 30px;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      gap: 50px 32px;
+      flex-wrap: wrap;
+      .card {
+        width: 23%;
+        .info {
+          text-align: center;
+          .icon {
+            margin-top: 10px;
+            .fa-solid {
+              color: rgb(224, 3, 3);
+              cursor: pointer;
+            }
+          }
+          .icon {
+            margin-top: 10px;
+            .fa-regular {
+              cursor: pointer;
+            }
+          }
+          p {
+            margin-top: 20px;
+            color: rgb(121, 121, 121);
+            font-size: 15px;
+          }
+          h3 {
+            font-weight: 500;
+            padding: 15px 0;
+          }
+          .price {
+            font-weight: 700;
+            color: rgb(121, 121, 121);
+          }
+        }
+      }
+    }
+  }
+}

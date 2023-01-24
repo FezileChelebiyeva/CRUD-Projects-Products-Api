@@ -1,0 +1,29 @@
+#details {
+  padding: 80px 0;
+  display: flex;
+  justify-content: center;
+  .details {
+    display: flex;
+    column-gap: 120px;
+    align-items: center;
+    .img {
+      img {
+        width: 360px;
+      }
+    }
+    .about {
+      text-align: center;
+      h1 {
+        color: rgb(0, 29, 158);
+      }
+      h3 {
+        padding: 20px 0;
+      }
+      p {
+        font-size: 18px;
+        font-weight: 700;
+        color: rgb(6, 41, 197);
+      }
+    }
+  }
+}

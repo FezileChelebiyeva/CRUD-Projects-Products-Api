@@ -1,0 +1,178 @@
+#home-page {
+  .home {
+    .first {
+      width: 100%;
+      display: flex;
+      .left {
+        width: 35%;
+        height: 80vh;
+        background-color: #384aeb;
+        position: relative;
+        .img {
+          display: flex;
+          justify-content: flex-end;
+          position: absolute;
+          bottom: -1px;
+          right: -130px;
+          img {
+            width: 460px;
+          }
+        }
+      }
+      .right {
+        width: 65%;
+        height: 80vh;
+        background-color: #f1f6f7;
+        .container {
+          .about {
+            margin-left: 200px;
+            margin-top: 250px;
+            .text {
+              width: 540px;
+              h4 {
+                font-size: 30px;
+                color: #6d6d6d;
+                font-weight: 400;
+              }
+              h1 {
+                font-size: 50px;
+                font-weight: 900;
+                padding: 20px 0;
+              }
+              p {
+                font-size: 15px;
+                color: #6d6d6d;
+                font-weight: 400;
+                line-height: 26px;
+              }
+              button {
+                margin-top: 40px;
+                background-color: #384aeb;
+                color: #fff;
+                outline: 0;
+                border: 1px solid #eaebe6;
+                width: 170px;
+                padding: 17px 10px;
+                border-radius: 30px;
+                font-size: 15px;
+                font-weight: 500;
+                cursor: pointer;
+                transition: all 0.4s;
+                &:hover {
+                  background-color: transparent;
+                  color: #000;
+                  border: 1px solid #384aeb;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    #basket {
+      background-image: url("../../assets/images/parallax-bg.png.webp");
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 40vh;
+      .container {
+        .text {
+          width: 400px;
+          padding-top: 90px;
+          text-align: center;
+          h1 {
+            font-size: 50px;
+            font-weight: 500;
+          }
+          h2 {
+            margin-top: 30px;
+            font-weight: 500;
+            font-size: 25px;
+          }
+          p {
+            color: #3f3f3f;
+            margin-top: 10px;
+          }
+          button {
+            margin-top: 30px;
+            background-color: #384aeb;
+            color: #fff;
+            outline: 0;
+            border: 1px solid #384aeb;
+            width: 170px;
+            padding: 14px 10px;
+            border-radius: 30px;
+            font-size: 15px;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.4s;
+            &:hover {
+              background-color: transparent;
+              color: #000;
+              border: 1px solid #384aeb;
+            }
+          }
+        }
+      }
+    }
+    #latestNews {
+      padding: 60px 0;
+      .latestNews {
+        p {
+          color: rgb(121, 121, 121);
+          font-size: 15px;
+        }
+        h1 {
+          margin: 10px 0;
+        }
+        .line {
+          width: 100px;
+          height: 2px;
+          background-color: #384aeb;
+        }
+        .cards {
+          margin-top: 30px;
+          display: flex;
+          column-gap: 30px;
+          align-items: center;
+          .card {
+            .infos {
+              width: 340px;
+              .admin {
+                margin-top: 10px;
+                display: flex;
+                align-items: center;
+                column-gap: 30px;
+              }
+              h1 {
+                font-size: 20px;
+                font-weight: 500;
+                padding: 10px 0;
+              }
+              button {
+                margin-top: 20px;
+                background-color: transparent;
+                outline: 0;
+                padding: 15px 10px;
+                font-size: 14px;
+                border: 0;
+                font-weight: 600;
+                cursor: pointer;
+                transition: all 0.4s;
+                .fa-sharp{
+                  transition: all 0.3s;
+                  margin-left: 2px;
+                }
+                &:hover {
+                  color: #384aeb;
+                  .fa-sharp {
+                    margin-left: 7px;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
